@@ -13,4 +13,9 @@
 
     // your code here
 
+    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+
+        document.getElementById("run").onclick = function () {
+        document.body.style.backgroundColor = "#" + randomColor;
+    }
 })();
