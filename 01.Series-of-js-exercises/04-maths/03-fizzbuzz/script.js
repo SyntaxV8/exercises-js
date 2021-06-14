@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /01-base/01-var-alert/script.js - 1.1: var & alert
+ * /02-maths/06-fizzbuzz/script.js - 2.6: fizzbuzz
  *
  * coded by leny@BeCode
  * started at 26/10/2018
@@ -8,7 +8,9 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-let hello = "Hello World!";
-alert(hello)
+
+(function() {
+
     // your code here
 
+})();

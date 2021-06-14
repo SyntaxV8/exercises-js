@@ -13,4 +13,11 @@
 
   // your code here
 
+    let cake1 = prompt("Do you want some cake?");
+
+    if (cake1 == "yes"){
+        alert('Congrats the cake is a lie!');
+    } else {
+        alert ('The cake is still a lie!');
+    }
 })();

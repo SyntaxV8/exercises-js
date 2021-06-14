@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /01-base/02-var-prompt/script.js - 1.2: var & prompt
+ * /02-maths/03-even-square/script.js - 2.3: carrés des pairs
  *
  * coded by leny@BeCode
  * started at 26/10/2018
@@ -11,8 +11,10 @@
 
 (function() {
 
-    // your code here
-    let username = prompt("What is your name?")
-    alert("Hello " + username + "!")
+    document.getElementById("run").addEventListener("click", function() {
+
+        // your code here
+
+    });
 
 })();
