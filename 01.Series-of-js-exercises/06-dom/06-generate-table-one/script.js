@@ -13,9 +13,8 @@
 
     // your code here
 
-    const target = document.getElementById("target");
     const myTable = document.createElement("table");
-    const tableInTarget = target.appendChild(myTable);
+    const tableInTarget = document.getElementById("target").appendChild(myTable);
     tableInTarget.setAttribute("class", "table");
 
     const tableT = document.querySelector(".table");
