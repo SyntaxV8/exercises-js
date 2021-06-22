@@ -13,4 +13,16 @@
 
     // your code here
 
+    const target = document.getElementById("target");
+    const myTable = document.createElement("table");
+    const tableInTarget = target.appendChild(myTable);
+    tableInTarget.setAttribute("class", "table");
+
+    const tableT = document.querySelector(".table");
+
+    for(let i = 1; i <= 10; i++){
+        const tableRow = document.createElement("tr");
+        const tableData = document.createElement("td");
+        tableT.appendChild(tableRow).appendChild(tableData).innerHTML = `row ${i}`;
+    }
 })();
