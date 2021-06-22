@@ -11,6 +11,11 @@
 
 (function() {
 
+    let imgSource = document.querySelector("img");
+    let newImgSource = document.querySelector("img").getAttribute("data-hover");
 
+    document.querySelector("img").addEventListener("mouseover", function () {
+        imgSource.src = newImgSource
+    })
 
 })();
