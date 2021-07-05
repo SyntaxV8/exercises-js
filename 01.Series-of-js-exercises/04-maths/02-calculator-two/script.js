@@ -12,8 +12,41 @@
 (function() {
     // to get the value of an input: document.getElementById("element-id").value
 
-    var performOperation = function(operation) {
+    let performOperation = function(operation) {
         // perform the operation
+
+        let operant1 = document.getElementById("op-one").value
+        let operant2 = document.getElementById("op-two").value
+        let total;
+        switch (operation) {
+
+            case "addition":
+                total = parseInt(operant1) + parseInt(operant2)
+                alert("your result is " + total);
+                break
+
+            case "substraction":
+                total = operant1 - operant2
+                alert(`your result is ${total}`)
+                break
+
+            case "multiplication":
+                total = operant1*operant2
+                alert(`Your result is ${total}`)
+                break
+
+            case "division":
+                total = Math.floor(operant1 / operant2)
+
+                if (operant2 == 0) {
+                    alert("Error cannot divide by 0!")
+                } else {
+                    alert(`Your result is ${total}`)
+                }
+                break
+
+        }
+
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
