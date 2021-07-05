@@ -15,4 +15,10 @@
 
     // your code here
 
+    let date = new Date()
+
+    let dateNow = date.toString()
+
+    document.getElementById("target").innerHTML = dateNow
+
 })();

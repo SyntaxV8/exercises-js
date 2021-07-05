@@ -13,4 +13,25 @@
 
     // your code here
 
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+
+    document.getElementById('run').addEventListener("click", function () {
+
+            let year = document.getElementById('year').value
+            let date = new Date();
+            let month;
+
+            for(month=0;month<12;month++) {
+
+                date.setFullYear(year, month,13);
+                if (date.getDay() == 5) {
+
+                    console.log(monthNames[month])
+                }
+            }
+
+
+    })
+
 })();
