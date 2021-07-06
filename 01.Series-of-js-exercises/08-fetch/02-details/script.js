@@ -9,7 +9,6 @@
 
 (() => {
     // your code here
-
     document.getElementById('run').addEventListener('click', function Hero () {
         let inputID = document.getElementById("hero-id").value;
 
@@ -22,9 +21,7 @@
                 document.querySelector('#target .name').innerHTML = hero.name;
                 document.querySelector('#target .alter-ego').innerHTML = hero.alterEgo;
                 document.querySelector('#target .powers').innerHTML = hero.abilities;
-
             })
+        //COPYRIGHT FROM YORDI
     })
-
-
 })();

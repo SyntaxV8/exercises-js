@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec3125e6-b136-45d9-bdab-b194d2a56d77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="42cde893-8e7b-49d0-804f-a34406d06113" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../08-fetch/02-details/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-fetch/02-details/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08-fetch/02-details/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-fetch/02-details/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1uNwMzw1wsWHu2QyTVI5Tj4kiXm" />
+  <component name="ProjectId" id="1ugErOlnajetQqpOgcBuxsApwJf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,16 +32,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec3125e6-b136-45d9-bdab-b194d2a56d77" name="Default Changelist" comment="" />
-      <created>1624519310533</created>
+      <changelist id="42cde893-8e7b-49d0-804f-a34406d06113" name="Default Changelist" comment="" />
+      <created>1625079029760</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624519310533</updated>
-      <workItem from="1624519311709" duration="260000" />
-      <workItem from="1624522583926" duration="7000" />
-      <workItem from="1624715490173" duration="678000" />
-      <workItem from="1625008843005" duration="84000" />
-      <workItem from="1625008955077" duration="120000" />
+      <updated>1625079029760</updated>
+      <workItem from="1625079031085" duration="63000" />
     </task>
     <servers />
   </component>
